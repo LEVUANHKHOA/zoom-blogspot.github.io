@@ -1,0 +1,157 @@
+/* Hero */
+.hero-container{
+	padding-top: 4.9%;
+}
+.hero-container ul{
+	background: #241a18;
+	padding: 15px 0;
+}
+.hero-container li{
+	max-width: 334px;
+	width: 100%;
+	text-align: center;
+}
+.hero-container a{
+	font-size: 20px;
+	color : #fff;
+	font-family: 'EB Garamond', serif;
+}
+.hero-container a span{
+	font-size: 30px;
+}
+.hero-container a:hover{
+	color: orange;
+}
+/* Hero */
+
+/* Banner */
+.banner-container{
+	padding: 100px 0 0 0;
+}
+.banner-container .row{
+	padding-bottom: 255px;
+}
+.banner-container .box{
+	background: url(../img/top/to_02.jpg) no-repeat center center;
+	background-size: cover;
+	
+}
+.banner-container .item{
+	padding: 20px;
+}
+.banner-container .item a{
+	font-size: 18px;
+	background: #bcbab8;
+	bottom: 0;
+	right: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	line-height: 1;
+}
+.banner-container .item a:hover,
+.container-item .item a:hover{
+	background: orange;
+}
+.banner-container .box .item a .arrow,
+.container-item .box .item a .arrow{
+	margin: 5px 0 0 20px;
+	border-width: 0 3px 3px 0;
+	border-color: #000;
+}
+.banner-container h4{
+	font-size: 35px;
+	color: #656565;
+	padding-bottom: 40px;
+}
+.banner-container p{
+	font-size: 15px;
+	color: #3b3b3b;
+}
+.banner-container .txt{
+	padding: 75px 100px;
+	background: rgba(225,225,225, 0.9);
+}
+.banner-container .img{
+	position: relative;
+	display: inline-block;
+}
+.banner-container .col .box{
+	position: absolute;
+	bottom: -8vw;
+	right: -14vw;
+}
+.banner-container .col-1{
+	text-align: right;
+}
+.banner-container .col-1 .box{
+	position: absolute;
+	bottom: -8vw;
+	right: auto;
+	left: -14vw;
+}
+.banner-container .col-1 .box .txt{
+	text-align: left;
+}
+/* Banner */
+
+/* Item Container */
+	.container-item{
+		width: 1500px;
+		margin: 0 auto;
+	}
+	.container-item ul{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.container-item ul li{
+		width: 33%;
+		padding-bottom: 120px;
+	}
+	.container-item .col{
+		padding-bottom: 115px;
+	}
+	.container-item .box{
+		background: url(../img/top/item-bg.png) center center no-repeat;
+		background-size: cover;
+		position: absolute;
+		left: -2.5vw;
+		bottom: -3.5vw;
+	}
+	.container-item .txt{
+		padding: 10px;
+		position: relative;
+	}
+	.container-item .img{
+		position: relative;
+	}
+	.container-item .item a{
+		right: 0;
+		bottom: 0;
+		background: #bcbab8;
+		padding: 6px 45px;
+	}
+	.container-item .item-list ul{
+		flex-wrap: nowrap;
+		max-width: 810px;
+		margin: 0 auto;
+	}
+	.container-item .item-list ul li{
+		border-right: 1px solid #000;
+		text-align: center;
+		line-height: 1;
+		padding: 0;
+		font-size: 14px;
+	}
+	.container-item .item-list ul li:first-child{
+		border-left: 1px solid #000;
+	}
+	.container-item h4{
+		font-size: 30px;
+		font-weight: 400;
+		text-align: center;
+		line-height: 1;
+		padding: 35px 96px;
+		background: rgba(225,225,225, 0.9);
+	}
+/* Item Container */
